@@ -1,0 +1,1352 @@
+[
+  {
+    "code": "4151",
+    "company_name": "KYOWA KIRIN CO., LTD.",
+    "industry": "Pharmaceuticals",
+    "edinet_code": "E00816"
+  },
+  {
+    "code": "4502",
+    "company_name": "TAKEDA PHARMACEUTICAL CO., LTD.",
+    "industry": "Pharmaceuticals",
+    "edinet_code": "E00919"
+  },
+  {
+    "code": "4503",
+    "company_name": "ASTELLAS PHARMA INC.",
+    "industry": "Pharmaceuticals",
+    "edinet_code": "E00920"
+  },
+  {
+    "code": "4506",
+    "company_name": "SUMITOMO PHARMA CO., LTD.",
+    "industry": "Pharmaceuticals",
+    "edinet_code": "E00922"
+  },
+  {
+    "code": "4507",
+    "company_name": "SHIONOGI & CO., LTD.",
+    "industry": "Pharmaceuticals",
+    "edinet_code": "E00923"
+  },
+  {
+    "code": "4519",
+    "company_name": "CHUGAI PHARMACEUTICAL CO., LTD.",
+    "industry": "Pharmaceuticals",
+    "edinet_code": "E00932"
+  },
+  {
+    "code": "4523",
+    "company_name": "EISAI CO., LTD.",
+    "industry": "Pharmaceuticals",
+    "edinet_code": "E00939"
+  },
+  {
+    "code": "4568",
+    "company_name": "DAIICHI SANKYO CO., LTD.",
+    "industry": "Pharmaceuticals",
+    "edinet_code": "E00984"
+  },
+  {
+    "code": "4578",
+    "company_name": "OTSUKA HOLDINGS CO., LTD.",
+    "industry": "Pharmaceuticals",
+    "edinet_code": "E21183"
+  },
+  {
+    "code": "6479",
+    "company_name": "MINEBEA MITSUMI INC.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01607"
+  },
+  {
+    "code": "6501",
+    "company_name": "HITACHI, LTD.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01737"
+  },
+  {
+    "code": "6503",
+    "company_name": "MITSUBISHI ELECTRIC CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01739"
+  },
+  {
+    "code": "6504",
+    "company_name": "FUJI ELECTRIC CO., LTD.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01740"
+  },
+  {
+    "code": "6506",
+    "company_name": "YASKAWA ELECTRIC CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01741"
+  },
+  {
+    "code": "6526",
+    "company_name": "SOCIONEXT INC.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E37978"
+  },
+  {
+    "code": "6594",
+    "company_name": "NIDEC CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01975"
+  },
+  {
+    "code": "6645",
+    "company_name": "OMRON CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01755"
+  },
+  {
+    "code": "6674",
+    "company_name": "GS YUASA CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E02089"
+  },
+  {
+    "code": "6701",
+    "company_name": "NEC CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01765"
+  },
+  {
+    "code": "6702",
+    "company_name": "FUJITSU LTD.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01766"
+  },
+  {
+    "code": "6723",
+    "company_name": "RENESAS ELECTRONICS CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E02081"
+  },
+  {
+    "code": "6724",
+    "company_name": "SEIKO EPSON CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01873"
+  },
+  {
+    "code": "6752",
+    "company_name": "PANASONIC HOLDINGS CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01772"
+  },
+  {
+    "code": "6753",
+    "company_name": "SHARP CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01773"
+  },
+  {
+    "code": "6758",
+    "company_name": "SONY GROUP CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01777"
+  },
+  {
+    "code": "6762",
+    "company_name": "TDK CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01780"
+  },
+  {
+    "code": "6770",
+    "company_name": "ALPS ALPINE CO., LTD.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01793"
+  },
+  {
+    "code": "6841",
+    "company_name": "YOKOGAWA ELECTRIC CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01878"
+  },
+  {
+    "code": "6857",
+    "company_name": "ADVANTEST CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01950"
+  },
+  {
+    "code": "6861",
+    "company_name": "KEYENCE CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01967"
+  },
+  {
+    "code": "6902",
+    "company_name": "DENSO CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01892"
+  },
+  {
+    "code": "6920",
+    "company_name": "LASERTEC CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01991"
+  },
+  {
+    "code": "6952",
+    "company_name": "CASIO COMPUTER CO., LTD.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01935"
+  },
+  {
+    "code": "6954",
+    "company_name": "FANUC CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01946"
+  },
+  {
+    "code": "6971",
+    "company_name": "KYOCERA CORP.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01182"
+  },
+  {
+    "code": "6976",
+    "company_name": "TAIYO YUDEN CO., LTD.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01824"
+  },
+  {
+    "code": "6981",
+    "company_name": "MURATA MANUFACTURING CO., LTD.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E01914"
+  },
+  {
+    "code": "7735",
+    "company_name": "SCREEN HOLDINGS CO., LTD.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E02288"
+  },
+  {
+    "code": "7751",
+    "company_name": "CANON INC.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E02274"
+  },
+  {
+    "code": "7752",
+    "company_name": "RICOH CO., LTD.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E02275"
+  },
+  {
+    "code": "8035",
+    "company_name": "TOKYO ELECTRON LTD.",
+    "industry": "Electric Machinery",
+    "edinet_code": "E02652"
+  },
+  {
+    "code": "7201",
+    "company_name": "NISSAN MOTOR CO., LTD.",
+    "industry": "Automobiles & Auto parts",
+    "edinet_code": "E02142"
+  },
+  {
+    "code": "7202",
+    "company_name": "ISUZU MOTORS LTD.",
+    "industry": "Automobiles & Auto parts",
+    "edinet_code": "E02143"
+  },
+  {
+    "code": "7203",
+    "company_name": "TOYOTA MOTOR CORP.",
+    "industry": "Automobiles & Auto parts",
+    "edinet_code": "E02144"
+  },
+  {
+    "code": "7205",
+    "company_name": "HINO MOTORS, LTD.",
+    "industry": "Automobiles & Auto parts",
+    "edinet_code": "E02146"
+  },
+  {
+    "code": "7211",
+    "company_name": "MITSUBISHI MOTORS CORP.",
+    "industry": "Automobiles & Auto parts",
+    "edinet_code": "E02213"
+  },
+  {
+    "code": "7261",
+    "company_name": "MAZDA MOTOR CORP.",
+    "industry": "Automobiles & Auto parts",
+    "edinet_code": "E02163"
+  },
+  {
+    "code": "7267",
+    "company_name": "HONDA MOTOR CO., LTD.",
+    "industry": "Automobiles & Auto parts",
+    "edinet_code": "E02166"
+  },
+  {
+    "code": "7269",
+    "company_name": "SUZUKI MOTOR CORP.",
+    "industry": "Automobiles & Auto parts",
+    "edinet_code": "E02167"
+  },
+  {
+    "code": "7270",
+    "company_name": "SUBARU CORP.",
+    "industry": "Automobiles & Auto parts",
+    "edinet_code": "E02152"
+  },
+  {
+    "code": "7272",
+    "company_name": "YAMAHA MOTOR CO., LTD.",
+    "industry": "Automobiles & Auto parts",
+    "edinet_code": "E02168"
+  },
+  {
+    "code": "4543",
+    "company_name": "TERUMO CORP.",
+    "industry": "Precision Instruments",
+    "edinet_code": "E01630"
+  },
+  {
+    "code": "4902",
+    "company_name": "KONICA MINOLTA, INC.",
+    "industry": "Precision Instruments",
+    "edinet_code": "E00989"
+  },
+  {
+    "code": "6146",
+    "company_name": "DISCO CORP.",
+    "industry": "Precision Instruments",
+    "edinet_code": "E01506"
+  },
+  {
+    "code": "7731",
+    "company_name": "NIKON CORP.",
+    "industry": "Precision Instruments",
+    "edinet_code": "E02271"
+  },
+  {
+    "code": "7733",
+    "company_name": "OLYMPUS CORP.",
+    "industry": "Precision Instruments",
+    "edinet_code": "E02272"
+  },
+  {
+    "code": "7741",
+    "company_name": "HOYA CORP.",
+    "industry": "Precision Instruments",
+    "edinet_code": "E01124"
+  },
+  {
+    "code": "7762",
+    "company_name": "CITIZEN WATCH CO., LTD.",
+    "industry": "Precision Instruments",
+    "edinet_code": "E02281"
+  },
+  {
+    "code": "9432",
+    "company_name": "NIPPON TELEGRAPH & TELEPHONE CORP.",
+    "industry": "Communications",
+    "edinet_code": "E04430"
+  },
+  {
+    "code": "9433",
+    "company_name": "KDDI CORP.",
+    "industry": "Communications",
+    "edinet_code": "E04425"
+  },
+  {
+    "code": "9434",
+    "company_name": "SOFTBANK CORP.",
+    "industry": "Communications",
+    "edinet_code": "E04426"
+  },
+  {
+    "code": "9613",
+    "company_name": "NTT DATA GROUP CORP.",
+    "industry": "Communications",
+    "edinet_code": "E04911"
+  },
+  {
+    "code": "9984",
+    "company_name": "SOFTBANK GROUP CORP.",
+    "industry": "Communications",
+    "edinet_code": "E02778"
+  },
+  {
+    "code": "5831",
+    "company_name": "SHIZUOKA FINANCIAL GROUP, INC.",
+    "industry": "Banking",
+    "edinet_code": "E37777"
+  },
+  {
+    "code": "7186",
+    "company_name": "CONCORDIA FINANCIAL GROUP, LTD.",
+    "industry": "Banking",
+    "edinet_code": "E32022"
+  },
+  {
+    "code": "8304",
+    "company_name": "AOZORA BANK, LTD.",
+    "industry": "Banking",
+    "edinet_code": "E03531"
+  },
+  {
+    "code": "8306",
+    "company_name": "MITSUBISHI UFJ FINANCIAL GROUP, INC.",
+    "industry": "Banking",
+    "edinet_code": "E03606"
+  },
+  {
+    "code": "8308",
+    "company_name": "RESONA HOLDINGS, INC.",
+    "industry": "Banking",
+    "edinet_code": "E03610"
+  },
+  {
+    "code": "8309",
+    "company_name": "SUMITOMO MITSUI TRUST GROUP, INC.",
+    "industry": "Banking",
+    "edinet_code": "E03611"
+  },
+  {
+    "code": "8316",
+    "company_name": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
+    "industry": "Banking",
+    "edinet_code": "E03614"
+  },
+  {
+    "code": "8331",
+    "company_name": "THE CHIBA BANK, LTD.",
+    "industry": "Banking",
+    "edinet_code": "E03556"
+  },
+  {
+    "code": "8354",
+    "company_name": "FUKUOKA FINANCIAL GROUP, INC.",
+    "industry": "Banking",
+    "edinet_code": "E03624"
+  },
+  {
+    "code": "8411",
+    "company_name": "MIZUHO FINANCIAL GROUP, INC.",
+    "industry": "Banking",
+    "edinet_code": "E03615"
+  },
+  {
+    "code": "8253",
+    "company_name": "CREDIT SAISON CO., LTD.",
+    "industry": "Other Financial Services",
+    "edinet_code": "E03041"
+  },
+  {
+    "code": "8591",
+    "company_name": "ORIX CORP.",
+    "industry": "Other Financial Services",
+    "edinet_code": "E04762"
+  },
+  {
+    "code": "8697",
+    "company_name": "JAPAN EXCHANGE GROUP, INC.",
+    "industry": "Other Financial Services",
+    "edinet_code": "E03814"
+  },
+  {
+    "code": "8601",
+    "company_name": "DAIWA SECURITIES GROUP INC.",
+    "industry": "Securities",
+    "edinet_code": "E03753"
+  },
+  {
+    "code": "8604",
+    "company_name": "NOMURA HOLDINGS, INC.",
+    "industry": "Securities",
+    "edinet_code": "E03752"
+  },
+  {
+    "code": "8630",
+    "company_name": "SOMPO HOLDINGS, INC.",
+    "industry": "Insurance",
+    "edinet_code": "E23924"
+  },
+  {
+    "code": "8725",
+    "company_name": "MS&AD INSURANCE GROUP HOLDINGS, INC.",
+    "industry": "Insurance",
+    "edinet_code": "E03854"
+  },
+  {
+    "code": "8750",
+    "company_name": "DAI-ICHI LIFE HOLDINGS, INC.",
+    "industry": "Insurance",
+    "edinet_code": "E06141"
+  },
+  {
+    "code": "8766",
+    "company_name": "TOKIO MARINE HOLDINGS, INC.",
+    "industry": "Insurance",
+    "edinet_code": "E03847"
+  },
+  {
+    "code": "8795",
+    "company_name": "T&D HOLDINGS, INC.",
+    "industry": "Insurance",
+    "edinet_code": "E03851"
+  },
+  {
+    "code": "1332",
+    "company_name": "NISSUI CORP.",
+    "industry": "Fishery",
+    "edinet_code": "E00014"
+  },
+  {
+    "code": "2002",
+    "company_name": "NISSHIN SEIFUN GROUP INC.",
+    "industry": "Foods",
+    "edinet_code": "E00346"
+  },
+  {
+    "code": "2269",
+    "company_name": "MEIJI HOLDINGS CO., LTD.",
+    "industry": "Foods",
+    "edinet_code": "E21902"
+  },
+  {
+    "code": "2282",
+    "company_name": "NH FOODS LTD.",
+    "industry": "Foods",
+    "edinet_code": "E00334"
+  },
+  {
+    "code": "2501",
+    "company_name": "SAPPORO HOLDINGS LTD.",
+    "industry": "Foods",
+    "edinet_code": "E00393"
+  },
+  {
+    "code": "2502",
+    "company_name": "ASAHI GROUP HOLDINGS, LTD.",
+    "industry": "Foods",
+    "edinet_code": "E00394"
+  },
+  {
+    "code": "2503",
+    "company_name": "KIRIN HOLDINGS CO., LTD.",
+    "industry": "Foods",
+    "edinet_code": "E00395"
+  },
+  {
+    "code": "2801",
+    "company_name": "KIKKOMAN CORP.",
+    "industry": "Foods",
+    "edinet_code": "E00435"
+  },
+  {
+    "code": "2802",
+    "company_name": "AJINOMOTO CO., INC.",
+    "industry": "Foods",
+    "edinet_code": "E00436"
+  },
+  {
+    "code": "2871",
+    "company_name": "NICHIREI CORP.",
+    "industry": "Foods",
+    "edinet_code": "E00446"
+  },
+  {
+    "code": "2914",
+    "company_name": "JAPAN TOBACCO INC.",
+    "industry": "Foods",
+    "edinet_code": "E00492"
+  },
+  {
+    "code": "3086",
+    "company_name": "J.FRONT RETAILING CO., LTD.",
+    "industry": "Retail",
+    "edinet_code": "E03516"
+  },
+  {
+    "code": "3092",
+    "company_name": "ZOZO, INC.",
+    "industry": "Retail",
+    "edinet_code": "E05725"
+  },
+  {
+    "code": "3099",
+    "company_name": "ISETAN MITSUKOSHI HOLDINGS LTD.",
+    "industry": "Retail",
+    "edinet_code": "E03521"
+  },
+  {
+    "code": "3382",
+    "company_name": "SEVEN & I HOLDINGS CO., LTD.",
+    "industry": "Retail",
+    "edinet_code": "E03462"
+  },
+  {
+    "code": "7453",
+    "company_name": "RYOHIN KEIKAKU CO., LTD.",
+    "industry": "Retail",
+    "edinet_code": "E03248"
+  },
+  {
+    "code": "8233",
+    "company_name": "TAKASHIMAYA CO., LTD.",
+    "industry": "Retail",
+    "edinet_code": "E03013"
+  },
+  {
+    "code": "8252",
+    "company_name": "MARUI GROUP CO., LTD.",
+    "industry": "Retail",
+    "edinet_code": "E03040"
+  },
+  {
+    "code": "8267",
+    "company_name": "AEON CO., LTD.",
+    "industry": "Retail",
+    "edinet_code": "E03061"
+  },
+  {
+    "code": "9843",
+    "company_name": "NITORI HOLDINGS CO., LTD.",
+    "industry": "Retail",
+    "edinet_code": "E03144"
+  },
+  {
+    "code": "9983",
+    "company_name": "FAST RETAILING CO., LTD.",
+    "industry": "Retail",
+    "edinet_code": "E03217"
+  },
+  {
+    "code": "2413",
+    "company_name": "M3, INC.",
+    "industry": "Services",
+    "edinet_code": "E05425"
+  },
+  {
+    "code": "2432",
+    "company_name": "DENA CO., LTD.",
+    "industry": "Services",
+    "edinet_code": "E05460"
+  },
+  {
+    "code": "3659",
+    "company_name": "NEXON CO., LTD.",
+    "industry": "Services",
+    "edinet_code": "E25850"
+  },
+  {
+    "code": "4307",
+    "company_name": "NOMURA RESEARCH INSTITUTE, LTD.",
+    "industry": "Services",
+    "edinet_code": "E05062"
+  },
+  {
+    "code": "4324",
+    "company_name": "DENTSU GROUP INC.",
+    "industry": "Services",
+    "edinet_code": "E04760"
+  },
+  {
+    "code": "4385",
+    "company_name": "MERCARI, INC.",
+    "industry": "Services",
+    "edinet_code": "E34064"
+  },
+  {
+    "code": "4661",
+    "company_name": "ORIENTAL LAND CO., LTD.",
+    "industry": "Services",
+    "edinet_code": "E04707"
+  },
+  {
+    "code": "4689",
+    "company_name": "LY CORP.",
+    "industry": "Services",
+    "edinet_code": "E05000"
+  },
+  {
+    "code": "4704",
+    "company_name": "TREND MICRO INC.",
+    "industry": "Services",
+    "edinet_code": "E04999"
+  },
+  {
+    "code": "4751",
+    "company_name": "CYBERAGENT, INC.",
+    "industry": "Services",
+    "edinet_code": "E05072"
+  },
+  {
+    "code": "4755",
+    "company_name": "RAKUTEN GROUP, INC.",
+    "industry": "Services",
+    "edinet_code": "E05080"
+  },
+  {
+    "code": "6098",
+    "company_name": "RECRUIT HOLDINGS CO., LTD.",
+    "industry": "Services",
+    "edinet_code": "E07801"
+  },
+  {
+    "code": "6178",
+    "company_name": "JAPAN POST HOLDINGS CO., LTD.",
+    "industry": "Services",
+    "edinet_code": "E31748"
+  },
+  {
+    "code": "7974",
+    "company_name": "NINTENDO CO., LTD.",
+    "industry": "Services",
+    "edinet_code": "E02367"
+  },
+  {
+    "code": "9602",
+    "company_name": "TOHO CO., LTD",
+    "industry": "Services",
+    "edinet_code": "E04583"
+  },
+  {
+    "code": "9735",
+    "company_name": "SECOM CO., LTD.",
+    "industry": "Services",
+    "edinet_code": "E04773"
+  },
+  {
+    "code": "9766",
+    "company_name": "KONAMI GROUP CORP.",
+    "industry": "Services",
+    "edinet_code": "E01956"
+  },
+  {
+    "code": "1605",
+    "company_name": "INPEX CORP.",
+    "industry": "Mining",
+    "edinet_code": "E00043"
+  },
+  {
+    "code": "3401",
+    "company_name": "TEIJIN LTD.",
+    "industry": "Textiles & Apparel",
+    "edinet_code": "E00872"
+  },
+  {
+    "code": "3402",
+    "company_name": "TORAY INDUSTRIES, INC.",
+    "industry": "Textiles & Apparel",
+    "edinet_code": "E00873"
+  },
+  {
+    "code": "3861",
+    "company_name": "OJI HOLDINGS CORP.",
+    "industry": "Pulp & Paper",
+    "edinet_code": "E00642"
+  },
+  {
+    "code": "3405",
+    "company_name": "KURARAY CO., LTD.",
+    "industry": "Chemicals",
+    "edinet_code": "E00876"
+  },
+  {
+    "code": "3407",
+    "company_name": "ASAHI KASEI CORP.",
+    "industry": "Chemicals",
+    "edinet_code": "E00877"
+  },
+  {
+    "code": "4004",
+    "company_name": "RESONAC HOLDINGS CORP.",
+    "industry": "Chemicals",
+    "edinet_code": "E00751"
+  },
+  {
+    "code": "4005",
+    "company_name": "SUMITOMO CHEMICAL CO., LTD.",
+    "industry": "Chemicals",
+    "edinet_code": "E00752"
+  },
+  {
+    "code": "4021",
+    "company_name": "NISSAN CHEMICAL CORP.",
+    "industry": "Chemicals",
+    "edinet_code": "E00759"
+  },
+  {
+    "code": "4042",
+    "company_name": "TOSOH CORP.",
+    "industry": "Chemicals",
+    "edinet_code": "E00767"
+  },
+  {
+    "code": "4043",
+    "company_name": "TOKUYAMA CORP.",
+    "industry": "Chemicals",
+    "edinet_code": "E00768"
+  },
+  {
+    "code": "4061",
+    "company_name": "DENKA CO., LTD.",
+    "industry": "Chemicals",
+    "edinet_code": "E00774"
+  },
+  {
+    "code": "4063",
+    "company_name": "SHIN-ETSU CHEMICAL CO., LTD.",
+    "industry": "Chemicals",
+    "edinet_code": "E00776"
+  },
+  {
+    "code": "4183",
+    "company_name": "MITSUI CHEMICALS, INC.",
+    "industry": "Chemicals",
+    "edinet_code": "E00840"
+  },
+  {
+    "code": "4188",
+    "company_name": "MITSUBISHI CHEMICAL GROUP CORP.",
+    "industry": "Chemicals",
+    "edinet_code": "E00808"
+  },
+  {
+    "code": "4208",
+    "company_name": "UBE CORP.",
+    "industry": "Chemicals",
+    "edinet_code": "E01002"
+  },
+  {
+    "code": "4452",
+    "company_name": "KAO CORP.",
+    "industry": "Chemicals",
+    "edinet_code": "E00883"
+  },
+  {
+    "code": "4901",
+    "company_name": "FUJIFILM HOLDINGS CORP.",
+    "industry": "Chemicals",
+    "edinet_code": "E00988"
+  },
+  {
+    "code": "4911",
+    "company_name": "SHISEIDO CO., LTD.",
+    "industry": "Chemicals",
+    "edinet_code": "E00990"
+  },
+  {
+    "code": "6988",
+    "company_name": "NITTO DENKO CORP.",
+    "industry": "Chemicals",
+    "edinet_code": "E01888"
+  },
+  {
+    "code": "5019",
+    "company_name": "IDEMITSU KOSAN CO., LTD.",
+    "industry": "Petroleum",
+    "edinet_code": "E01084"
+  },
+  {
+    "code": "5020",
+    "company_name": "ENEOS HOLDINGS, INC.",
+    "industry": "Petroleum",
+    "edinet_code": "E24050"
+  },
+  {
+    "code": "5101",
+    "company_name": "THE YOKOHAMA RUBBER CO., LTD.",
+    "industry": "Rubber",
+    "edinet_code": "E01085"
+  },
+  {
+    "code": "5108",
+    "company_name": "BRIDGESTONE CORP.",
+    "industry": "Rubber",
+    "edinet_code": "E01086"
+  },
+  {
+    "code": "5201",
+    "company_name": "AGC INC.",
+    "industry": "Glass & Ceramics",
+    "edinet_code": "E01122"
+  },
+  {
+    "code": "5214",
+    "company_name": "NIPPON ELECTRIC GLASS CO., LTD.",
+    "industry": "Glass & Ceramics",
+    "edinet_code": "E01190"
+  },
+  {
+    "code": "5233",
+    "company_name": "TAIHEIYO CEMENT CORP.",
+    "industry": "Glass & Ceramics",
+    "edinet_code": "E01130"
+  },
+  {
+    "code": "5301",
+    "company_name": "TOKAI CARBON CO., LTD.",
+    "industry": "Glass & Ceramics",
+    "edinet_code": "E01162"
+  },
+  {
+    "code": "5332",
+    "company_name": "TOTO LTD.",
+    "industry": "Glass & Ceramics",
+    "edinet_code": "E01138"
+  },
+  {
+    "code": "5333",
+    "company_name": "NGK INSULATORS, LTD.",
+    "industry": "Glass & Ceramics",
+    "edinet_code": "E01137"
+  },
+  {
+    "code": "5401",
+    "company_name": "NIPPON STEEL CORP.",
+    "industry": "Steel",
+    "edinet_code": "E01225"
+  },
+  {
+    "code": "5406",
+    "company_name": "KOBE STEEL, LTD.",
+    "industry": "Steel",
+    "edinet_code": "E01231"
+  },
+  {
+    "code": "5411",
+    "company_name": "JFE HOLDINGS, INC.",
+    "industry": "Steel",
+    "edinet_code": "E01264"
+  },
+  {
+    "code": "3436",
+    "company_name": "SUMCO CORP.",
+    "industry": "Nonferrous Metals",
+    "edinet_code": "E02103"
+  },
+  {
+    "code": "5706",
+    "company_name": "MITSUI MINING & SMELTING CO.",
+    "industry": "Nonferrous Metals",
+    "edinet_code": "E00024"
+  },
+  {
+    "code": "5711",
+    "company_name": "MITSUBISHI MATERIALS CORP.",
+    "industry": "Nonferrous Metals",
+    "edinet_code": "E00021"
+  },
+  {
+    "code": "5713",
+    "company_name": "SUMITOMO METAL MINING CO., LTD.",
+    "industry": "Nonferrous Metals",
+    "edinet_code": "E00023"
+  },
+  {
+    "code": "5714",
+    "company_name": "DOWA HOLDINGS CO., LTD.",
+    "industry": "Nonferrous Metals",
+    "edinet_code": "E00028"
+  },
+  {
+    "code": "5801",
+    "company_name": "FURUKAWA ELECTRIC CO., LTD.",
+    "industry": "Nonferrous Metals",
+    "edinet_code": "E01332"
+  },
+  {
+    "code": "5802",
+    "company_name": "SUMITOMO ELECTRIC IND., LTD.",
+    "industry": "Nonferrous Metals",
+    "edinet_code": "E01333"
+  },
+  {
+    "code": "5803",
+    "company_name": "FUJIKURA LTD.",
+    "industry": "Nonferrous Metals",
+    "edinet_code": "E01334"
+  },
+  {
+    "code": "2768",
+    "company_name": "SOJITZ CORP.",
+    "industry": "Trading Companies",
+    "edinet_code": "E02958"
+  },
+  {
+    "code": "8001",
+    "company_name": "ITOCHU CORP.",
+    "industry": "Trading Companies",
+    "edinet_code": "E02497"
+  },
+  {
+    "code": "8002",
+    "company_name": "MARUBENI CORP.",
+    "industry": "Trading Companies",
+    "edinet_code": "E02498"
+  },
+  {
+    "code": "8015",
+    "company_name": "TOYOTA TSUSHO CORP.",
+    "industry": "Trading Companies",
+    "edinet_code": "E02505"
+  },
+  {
+    "code": "8031",
+    "company_name": "MITSUI & CO., LTD.",
+    "industry": "Trading Companies",
+    "edinet_code": "E02513"
+  },
+  {
+    "code": "8053",
+    "company_name": "SUMITOMO CORP.",
+    "industry": "Trading Companies",
+    "edinet_code": "E02528"
+  },
+  {
+    "code": "8058",
+    "company_name": "MITSUBISHI CORP.",
+    "industry": "Trading Companies",
+    "edinet_code": "E02529"
+  },
+  {
+    "code": "1721",
+    "company_name": "COMSYS HOLDINGS CORP.",
+    "industry": "Construction",
+    "edinet_code": "E00322"
+  },
+  {
+    "code": "1801",
+    "company_name": "TAISEI CORP.",
+    "industry": "Construction",
+    "edinet_code": "E00052"
+  },
+  {
+    "code": "1802",
+    "company_name": "OBAYASHI CORP.",
+    "industry": "Construction",
+    "edinet_code": "E00055"
+  },
+  {
+    "code": "1803",
+    "company_name": "SHIMIZU CORP.",
+    "industry": "Construction",
+    "edinet_code": "E00053"
+  },
+  {
+    "code": "1808",
+    "company_name": "HASEKO CORP.",
+    "industry": "Construction",
+    "edinet_code": "E00090"
+  },
+  {
+    "code": "1812",
+    "company_name": "KAJIMA CORP.",
+    "industry": "Construction",
+    "edinet_code": "E00058"
+  },
+  {
+    "code": "1925",
+    "company_name": "DAIWA HOUSE IND. CO., LTD.",
+    "industry": "Construction",
+    "edinet_code": "E00048"
+  },
+  {
+    "code": "1928",
+    "company_name": "SEKISUI HOUSE, LTD.",
+    "industry": "Construction",
+    "edinet_code": "E00143"
+  },
+  {
+    "code": "1963",
+    "company_name": "JGC HOLDINGS CORP.",
+    "industry": "Construction",
+    "edinet_code": "E01575"
+  },
+  {
+    "code": "5631",
+    "company_name": "THE JAPAN STEEL WORKS, LTD.",
+    "industry": "Machinery",
+    "edinet_code": "E01232"
+  },
+  {
+    "code": "6103",
+    "company_name": "OKUMA CORP.",
+    "industry": "Machinery",
+    "edinet_code": "E01481"
+  },
+  {
+    "code": "6113",
+    "company_name": "AMADA CO., LTD.",
+    "industry": "Machinery",
+    "edinet_code": "E01486"
+  },
+  {
+    "code": "6273",
+    "company_name": "SMC CORP.",
+    "industry": "Machinery",
+    "edinet_code": "E01673"
+  },
+  {
+    "code": "6301",
+    "company_name": "KOMATSU LTD.",
+    "industry": "Machinery",
+    "edinet_code": "E01532"
+  },
+  {
+    "code": "6302",
+    "company_name": "SUMITOMO HEAVY IND., LTD.",
+    "industry": "Machinery",
+    "edinet_code": "E01533"
+  },
+  {
+    "code": "6305",
+    "company_name": "HITACHI CONST. MACH. CO., LTD.",
+    "industry": "Machinery",
+    "edinet_code": "E01585"
+  },
+  {
+    "code": "6326",
+    "company_name": "KUBOTA CORP.",
+    "industry": "Machinery",
+    "edinet_code": "E01267"
+  },
+  {
+    "code": "6361",
+    "company_name": "EBARA CORP.",
+    "industry": "Machinery",
+    "edinet_code": "E01542"
+  },
+  {
+    "code": "6367",
+    "company_name": "DAIKIN INDUSTRIES, LTD.",
+    "industry": "Machinery",
+    "edinet_code": "E01570"
+  },
+  {
+    "code": "6471",
+    "company_name": "NSK LTD.",
+    "industry": "Machinery",
+    "edinet_code": "E01600"
+  },
+  {
+    "code": "6472",
+    "company_name": "NTN CORP.",
+    "industry": "Machinery",
+    "edinet_code": "E01601"
+  },
+  {
+    "code": "6473",
+    "company_name": "JTEKT CORP.",
+    "industry": "Machinery",
+    "edinet_code": "E01602"
+  },
+  {
+    "code": "7004",
+    "company_name": "KANADEVIA CORP.",
+    "industry": "Machinery",
+    "edinet_code": "E02124"
+  },
+  {
+    "code": "7011",
+    "company_name": "MITSUBISHI HEAVY IND., LTD.",
+    "industry": "Machinery",
+    "edinet_code": "E02126"
+  },
+  {
+    "code": "7013",
+    "company_name": "IHI CORP.",
+    "industry": "Machinery",
+    "edinet_code": "E02128"
+  },
+  {
+    "code": "7012",
+    "company_name": "KAWASAKI HEAVY IND., LTD.",
+    "industry": "Shipbuilding",
+    "edinet_code": "E02127"
+  },
+  {
+    "code": "7832",
+    "company_name": "BANDAI NAMCO HOLDINGS INC.",
+    "industry": "Other Manufacturing",
+    "edinet_code": "E02481"
+  },
+  {
+    "code": "7911",
+    "company_name": "TOPPAN HOLDINGS INC.",
+    "industry": "Other Manufacturing",
+    "edinet_code": "E00692"
+  },
+  {
+    "code": "7912",
+    "company_name": "DAI NIPPON PRINTING CO., LTD.",
+    "industry": "Other Manufacturing",
+    "edinet_code": "E00693"
+  },
+  {
+    "code": "7951",
+    "company_name": "YAMAHA CORP.",
+    "industry": "Other Manufacturing",
+    "edinet_code": "E02362"
+  },
+  {
+    "code": "3289",
+    "company_name": "TOKYU FUDOSAN HOLDINGS CORP.",
+    "industry": "Real Estate",
+    "edinet_code": "E27633"
+  },
+  {
+    "code": "8801",
+    "company_name": "MITSUI FUDOSAN CO., LTD.",
+    "industry": "Real Estate",
+    "edinet_code": "E03855"
+  },
+  {
+    "code": "8802",
+    "company_name": "MITSUBISHI ESTATE CO., LTD.",
+    "industry": "Real Estate",
+    "edinet_code": "E03856"
+  },
+  {
+    "code": "8804",
+    "company_name": "TOKYO TATEMONO CO., LTD.",
+    "industry": "Real Estate",
+    "edinet_code": "E03859"
+  },
+  {
+    "code": "8830",
+    "company_name": "SUMITOMO REALTY & DEVELOPMENT CO., LTD.",
+    "industry": "Real Estate",
+    "edinet_code": "E03907"
+  },
+  {
+    "code": "9001",
+    "company_name": "TOBU RAILWAY CO., LTD.",
+    "industry": "Railway & Bus",
+    "edinet_code": "E04094"
+  },
+  {
+    "code": "9005",
+    "company_name": "TOKYU CORP.",
+    "industry": "Railway & Bus",
+    "edinet_code": "E04090"
+  },
+  {
+    "code": "9007",
+    "company_name": "ODAKYU ELECTRIC RAILWAY CO., LTD.",
+    "industry": "Railway & Bus",
+    "edinet_code": "E04088"
+  },
+  {
+    "code": "9008",
+    "company_name": "KEIO CORP.",
+    "industry": "Railway & Bus",
+    "edinet_code": "E04092"
+  },
+  {
+    "code": "9009",
+    "company_name": "KEISEI ELECTRIC RAILWAY CO., LTD.",
+    "industry": "Railway & Bus",
+    "edinet_code": "E04091"
+  },
+  {
+    "code": "9020",
+    "company_name": "EAST JAPAN RAILWAY CO.",
+    "industry": "Railway & Bus",
+    "edinet_code": "E04147"
+  },
+  {
+    "code": "9021",
+    "company_name": "WEST JAPAN RAILWAY CO.",
+    "industry": "Railway & Bus",
+    "edinet_code": "E04148"
+  },
+  {
+    "code": "9022",
+    "company_name": "CENTRAL JAPAN RAILWAY CO., LTD.",
+    "industry": "Railway & Bus",
+    "edinet_code": "E04149"
+  },
+  {
+    "code": "9064",
+    "company_name": "YAMATO HOLDINGS CO., LTD.",
+    "industry": "Land Transport",
+    "edinet_code": "E04187"
+  },
+  {
+    "code": "9147",
+    "company_name": "NIPPON EXPRESS HOLDINGS, INC.",
+    "industry": "Land Transport",
+    "edinet_code": "E36706"
+  },
+  {
+    "code": "9101",
+    "company_name": "NIPPON YUSEN K.K.",
+    "industry": "Marine Transport",
+    "edinet_code": "E04235"
+  },
+  {
+    "code": "9104",
+    "company_name": "MITSUI O.S.K.LINES, LTD.",
+    "industry": "Marine Transport",
+    "edinet_code": "E04236"
+  },
+  {
+    "code": "9107",
+    "company_name": "KAWASAKI KISEN KAISHA, LTD.",
+    "industry": "Marine Transport",
+    "edinet_code": "E04237"
+  },
+  {
+    "code": "9201",
+    "company_name": "JAPAN AIRLINES CO., LTD.",
+    "industry": "Air Transport",
+    "edinet_code": "E04272"
+  },
+  {
+    "code": "9202",
+    "company_name": "ANA HOLDINGS INC.",
+    "industry": "Air Transport",
+    "edinet_code": "E04273"
+  },
+  {
+    "code": "9301",
+    "company_name": "MITSUBISHI LOGISTICS CORP.",
+    "industry": "Warehousing",
+    "edinet_code": "E04283"
+  },
+  {
+    "code": "9501",
+    "company_name": "TOKYO ELECTRIC POWER COMPANY HOLDINGS, I",
+    "industry": "Electric Power",
+    "edinet_code": "E04498"
+  },
+  {
+    "code": "9502",
+    "company_name": "CHUBU ELECTRIC POWER CO., INC.",
+    "industry": "Electric Power",
+    "edinet_code": "E04502"
+  },
+  {
+    "code": "9503",
+    "company_name": "THE KANSAI ELECTRIC POWER CO., INC.",
+    "industry": "Electric Power",
+    "edinet_code": "E04499"
+  },
+  {
+    "code": "9531",
+    "company_name": "TOKYO GAS CO., LTD.",
+    "industry": "Gas",
+    "edinet_code": "E04514"
+  },
+  {
+    "code": "9532",
+    "company_name": "OSAKA GAS CO., LTD.",
+    "industry": "Gas",
+    "edinet_code": "E04520"
+  }
+]
