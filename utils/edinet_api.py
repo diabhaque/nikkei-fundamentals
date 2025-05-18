@@ -116,3 +116,11 @@ def get_documents_for_date_range(
             matching_docs.extend(filtered_docs)
 
     return matching_docs
+
+
+def get_doc_name(doc_metadata):
+    doc_id = doc_metadata["docID"]
+    edinet_code = doc_metadata["edinetCode"]
+    doc_type_code = doc_metadata["docTypeCode"]
+    filer = doc_metadata["filerName"]
+    return f"{edinet_code}_{filer}_{doc_type_code}_{doc_id}.{FILE_EXT}"
