@@ -10,6 +10,10 @@ docs_metadata_path = os.path.join(refdata_path, "docs_metadata.json")
 documents_path = os.path.join("..", "documents")
 
 
+def get_all_pdfs():
+    return [f for f in os.listdir(documents_path) if f.lower().endswith(".pdf")]
+
+
 def get_random_pdf_pair():
     # Get list of all PDF files in the directory
     pdf_files = [f for f in os.listdir(documents_path) if f.lower().endswith(".pdf")]
