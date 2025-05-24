@@ -4,6 +4,7 @@ japan_fundamentals.egg-info/PKG-INFO
 japan_fundamentals.egg-info/SOURCES.txt
 japan_fundamentals.egg-info/dependency_links.txt
 japan_fundamentals.egg-info/top_level.txt
+utils/ELO.py
 utils/backtest.py
 utils/constants.py
 utils/data.py

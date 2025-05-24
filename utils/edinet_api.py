@@ -8,6 +8,8 @@ from dotenv import load_dotenv
 from typing import List, Dict, Union
 from tqdm import tqdm
 
+from utils.data import all_securities
+
 # Load variables from the .env file and retrieve api key
 load_dotenv()
 EDINET_API_KEY = os.getenv("EDINET_API_KEY")

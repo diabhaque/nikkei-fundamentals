@@ -5,9 +5,14 @@ refdata_path = os.path.join("..", "refdata")
 
 edinet_codes_path = os.path.join(refdata_path, "edinet_codes.xlsx")
 nikkei_225_path = os.path.join(refdata_path, "nikkei_225.json")
+all_securities_path = os.path.join(refdata_path, "all_securities.json")
 docs_metadata_path = os.path.join(refdata_path, "docs_metadata.json")
 
 documents_path = os.path.join("..", "documents")
+signals_path = os.path.join("..", "signals")
+
+wins_signals_path = os.path.join(signals_path, "wins.json")
+elo_signals_path = os.path.join(signals_path, "elo.json")
 
 
 def get_all_pdfs_for_quarter(quarter):
