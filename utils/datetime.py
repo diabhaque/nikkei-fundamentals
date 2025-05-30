@@ -1,12 +1,30 @@
-from datetime import datetime, timedelta
+import pandas as pd
+
+from datetime import datetime, timedelta, date
 from dateutil.relativedelta import relativedelta
 
 DATE_FORMAT = "%Y-%m-%d"
-QUARTER_FORMAT = "%Y-%Q"  # invalid strf format e.g. 2024-3
+QUARTER_FORMAT = "%Y-Q%q"  # invalid strf format e.g. 2024-Q3
+
+
+def date_to_quarter(date):
+    return f"{date.year}-Q{date.quarter}"
+
+
+def date_string_to_quarter(date_string):
+    return date_to_quarter(pd.Timestamp(date_string))
+
+
+def get_current_quarter():
+    return date_string_to_quarter(date.today().strftime(DATE_FORMAT))
+
+
+def get_today():
+    return date.today().strftime(DATE_FORMAT)
 
 
 def get_quarter_end_date(quarter_string):
-    year, quarter = map(int, quarter_string.split("-"))
+    year, quarter = map(int, quarter_string.split("-Q"))
     end_month = quarter * 3
     end_date = datetime(year, end_month, 1) + relativedelta(months=1, days=-1)
     return end_date
@@ -14,7 +32,7 @@ def get_quarter_end_date(quarter_string):
 
 def get_rebalance_date(quarter_string):
     """
-    If quarter end date is Sep 30 2024, i.e. 2024-3
+    If quarter end date is Sep 30 2024, i.e. 2024-Q3
     The (flawed) assumption is that the Edinet documents will be released by the first business day of Nov.
     The companies have a month to produce doc.
 
