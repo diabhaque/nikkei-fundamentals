@@ -2,6 +2,7 @@
 .env
 
 # folders
+/market_data
 /documents
 /venv312
 /metadocs
