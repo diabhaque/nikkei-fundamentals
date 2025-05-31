@@ -19,6 +19,10 @@ def get_current_quarter():
     return date_string_to_quarter(date.today().strftime(DATE_FORMAT))
 
 
+def date_to_string(date):
+    return date.strftime(DATE_FORMAT)
+
+
 def get_today():
     return date.today().strftime(DATE_FORMAT)
 
@@ -30,13 +34,15 @@ def get_quarter_end_date(quarter_string):
     return end_date
 
 
+def get_quarter_end_date_string(quarter_string):
+    return date_to_string(get_quarter_end_date(quarter_string))
+
+
 def get_rebalance_date(quarter_string):
     """
     If quarter end date is Sep 30 2024, i.e. 2024-Q3
     The (flawed) assumption is that the Edinet documents will be released by the first business day of Nov.
     The companies have a month to produce doc.
-
-
     """
     quarter_end_date = get_quarter_end_date(quarter_string)
     next_month_start = quarter_end_date + relativedelta(months=1, days=1)
@@ -49,3 +55,7 @@ def get_rebalance_date(quarter_string):
         if current_date.weekday() < 5:  # Monday to Friday
             return current_date.strftime(DATE_FORMAT)
         current_date += timedelta(days=1)
+
+
+start_date = "2014-01-01"
+end_date = get_today()
