@@ -1,7 +1,9 @@
 import os
 import random
 
-refdata_path = os.path.join("..", "refdata")
+notebook_to_root = os.path.join("..", "..")
+
+refdata_path = os.path.join(notebook_to_root, "refdata")
 
 edinet_codes_path = os.path.join(refdata_path, "edinet_codes.xlsx")
 nikkei_225_path = os.path.join(refdata_path, "nikkei_225.json")
@@ -10,13 +12,13 @@ docs_metadata_path = os.path.join(refdata_path, "docs_metadata.json")
 basket_all_path = os.path.join(refdata_path, "basket_all.json")
 basket_500_path = os.path.join(refdata_path, "basket_500.json")
 
-documents_path = os.path.join("..", "documents")
+documents_path = os.path.join(notebook_to_root, "documents")
 
-signals_path = os.path.join("..", "signals")
+signals_path = os.path.join(notebook_to_root, "signals")
 wins_signals_path = os.path.join(signals_path, "wins.json")
 elo_signals_path = os.path.join(signals_path, "elo.json")
 
-market_data_path = os.path.join("..", "market_data")
+market_data_path = os.path.join(notebook_to_root, "market_data")
 adj_share_counts_path = os.path.join(market_data_path, "avg_share_counts_adj.csv")
 daily_prices_path = os.path.join(market_data_path, "daily_prices.csv")
 quarterly_prices_path = os.path.join(market_data_path, "quarterly_prices.csv")
