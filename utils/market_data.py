@@ -1,6 +1,8 @@
 import yfinance as yf
 import pandas as pd
 
+black_list = ["2372", "9749"]
+
 
 def get_stock_prices(stock_list, start_date, end_date):
     # TODO: Can probably simplify using df["Close"].to_dict()

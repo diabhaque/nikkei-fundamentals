@@ -27,6 +27,10 @@ def get_today():
     return date.today().strftime(DATE_FORMAT)
 
 
+def get_last_quarter_end_date():
+    return pd.Timestamp(get_today())
+
+
 def get_quarter_end_date(quarter_string):
     year, quarter = map(int, quarter_string.split("-Q"))
     end_month = quarter * 3
