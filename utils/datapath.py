@@ -17,6 +17,7 @@ documents_path = os.path.join(notebook_to_root, "documents")
 signals_path = os.path.join(notebook_to_root, "signals")
 wins_signals_path = os.path.join(signals_path, "wins.json")
 elo_signals_path = os.path.join(signals_path, "elo.json")
+industry_elo_signals_path = os.path.join(signals_path, "industry_elo.json")
 
 market_data_path = os.path.join(notebook_to_root, "market_data")
 adj_share_counts_path = os.path.join(market_data_path, "avg_share_counts_adj.csv")

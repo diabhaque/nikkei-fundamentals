@@ -26,3 +26,11 @@ edinet_to_stock_code_map = {
 stock_to_edinet_code_map = {
     security["code"]: security["edinet_code"] for security in all_securities
 }
+
+edinet_to_industry_map = {
+    security["edinet_code"]: security["industry"] for security in all_securities
+}
+
+stock_to_industry_map = {
+    security["code"]: security["industry"] for security in all_securities
+}

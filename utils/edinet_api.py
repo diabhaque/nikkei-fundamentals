@@ -111,7 +111,7 @@ def get_documents_for_date_range(
         desc="Retrieving documents",
     ):
         docs_res = disclosure_documents(date=single_date)
-        if docs_res["results"]:
+        if docs_res.get("results"):
             filtered_docs = filter_by_codes(
                 docs_res["results"], edinet_codes, doc_type_codes
             )

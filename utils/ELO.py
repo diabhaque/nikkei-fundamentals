@@ -1,3 +1,6 @@
+import random
+
+
 class EloRatingSystem:
     def __init__(self, k_factor=32, default_rating=1500, ratings={}):
         self.k_factor = k_factor
@@ -40,3 +43,13 @@ class EloRatingSystem:
 
 def get_num_games(num_players):
     return int((num_players * (num_players - 1)) / 2)
+
+
+def generate_random_pdf_pair(docs, iterations):
+    for i in range(iterations):
+        selected_pdfs = random.sample(docs, 2)
+
+        yield (
+            selected_pdfs[0],
+            selected_pdfs[1],
+        )
