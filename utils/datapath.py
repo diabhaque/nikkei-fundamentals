@@ -25,27 +25,39 @@ daily_prices_path = os.path.join(market_data_path, "daily_prices.csv")
 quarterly_prices_path = os.path.join(market_data_path, "quarterly_prices.csv")
 
 
-def get_all_pdfs_for_quarter(quarter):
-    quarter_documents_path = os.path.join(documents_path, quarter)
-    return [f for f in os.listdir(quarter_documents_path) if f.lower().endswith(".pdf")]
+def get_all_pdfs_for_industry_quarter(industry, quarter):
+    industry_path = os.path.join(documents_path, industry)
+    quarter_path = os.path.join(industry_path, quarter)
+    return [f for f in os.listdir(quarter_path) if f.lower().endswith(".pdf")]
 
 
 def get_all_pdfs():
-    quarters = [q for q in os.listdir(documents_path)]
-    return [pdf for quarter in quarters for pdf in get_all_pdfs_for_quarter(quarter)]
+    industries = [industry for industry in os.listdir(documents_path)]
+    return [
+        pdf
+        for industry in industries
+        for quarter in [q for q in os.listdir(os.path.join(documents_path, industry))]
+        for pdf in get_all_pdfs_for_industry_quarter(industry, quarter)
+    ]
 
 
 def get_random_pdf_pair():
     # Get list of all PDF files in the directory
-    quarters = [q for q in os.listdir(documents_path)]
+    industries = [industry for industry in os.listdir(documents_path)]
+    random_industry = random.choice(industries)
+
+    quarters = [q for q in os.listdir(os.path.join(documents_path, random_industry))]
     random_quarter = random.choice(quarters)
-    pdf_files = get_all_pdfs_for_quarter(random_quarter)
+
+    pdf_files = get_all_pdfs_for_industry_quarter(random_industry, random_quarter)
 
     # Select 2 random PDFs
     selected_pdfs = random.sample(pdf_files, 2)
 
     # Return full paths to the PDFs
-    quarter_documents_path = os.path.join(documents_path, random_quarter)
+    quarter_documents_path = os.path.join(
+        documents_path, random_industry, random_quarter
+    )
     return (
         os.path.join(quarter_documents_path, selected_pdfs[0]),
         os.path.join(quarter_documents_path, selected_pdfs[1]),

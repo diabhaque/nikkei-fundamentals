@@ -96,3 +96,56 @@ class Timeline:
     def get_cumulative_returns(self):
         navs = self.get_navs()
         return navs / navs.iloc[0]
+
+
+def sort_basket(signals):
+    sorted_basket = sorted(signals.keys(), key=lambda x: signals[x], reverse=True)
+    return sorted_basket
+
+
+def get_asset_count(basket_size):
+    if basket_size <= 4:
+        return basket_size // 2
+    elif basket_size <= 7:
+        return min(2, basket_size // 2)
+    elif basket_size <= 12:
+        return min(3, basket_size // 2)
+    else:
+        return max(min(basket_size // 5, int(basket_size * 0.3)), 50)
+
+
+def run_daily_backtest(
+    price_df,
+    signal_series,
+    asset_count=None,
+    shorting_enabled=False,
+):
+    # pre-sort baskets on signals
+    sorted_basket_series = {
+        date: sort_basket(signals) for date, signals in signal_series.items()
+    }
+
+    dates = list(price_df.index)
+
+    initial_portfolio = Portfolio({}, {}, cash=1e4)
+    timeline = Timeline(dates[0], initial_portfolio)
+
+    for i, date in enumerate(dates, start=1):
+        # compute daily returns
+        ret = price_df.loc[date] / price_df.shift(1).loc[date] - 1
+        timeline.remark(date, ret)
+
+        # rebalance periodically
+        if date in signal_series:
+            # print(f"Rebalancing on {date}")
+            valid_stocks = price_df.loc[date].dropna().index
+            sorted_basket = sorted_basket_series[date]
+
+            count = asset_count if asset_count else get_asset_count(len(sorted_basket))
+            top = [stock for stock in sorted_basket[:count] if stock in valid_stocks]
+            bottom = [
+                stock for stock in sorted_basket[-count:] if stock in valid_stocks
+            ]
+            timeline.rebalance(date, top, bottom)
+
+    return timeline

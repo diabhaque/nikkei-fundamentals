@@ -23,11 +23,6 @@ def get_quarterly_constituents(stock_list, start_date, end_date):
     return constituents
 
 
-def sort_basket(signals):
-    sorted_basket = sorted(signals.keys(), key=lambda x: signals[x], reverse=True)
-    return sorted_basket
-
-
 def generate_signals(constituents):
     signal_series = {}
     for q, basket in constituents.items():
