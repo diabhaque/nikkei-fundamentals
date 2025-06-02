@@ -2,19 +2,24 @@ import json
 import random
 
 from utils.data import edinet_to_stock_code_map
-from utils.llm_api import call_grok_api, prepare_prompt_messages
+from utils.llm_api import call_grok_api, call_grok_mini_api, prepare_prompt_messages
 from utils.pdf import extract_pdf_text
 
 
-def get_winner(pdf1_path, pdf2_path):
-    return random.choice([0, 1])  #
+def get_winner(client, pdf1_path, pdf2_path):
+    return random.choice([0, 1])  # Change name to get_random_winner
+
+
+def get_winner_grok_mini(client, pdf1_path, pdf2_path):
+    pdf1_txt, pdf2_txt = extract_pdf_text(pdf1_path), extract_pdf_text(pdf2_path)
+    completion = call_grok_mini_api(client, prepare_prompt_messages(pdf1_txt, pdf2_txt))
+    return int(completion.choices[0].message.content)
 
 
 def get_winner_grok(client, pdf1_path, pdf2_path):
     pdf1_txt, pdf2_txt = extract_pdf_text(pdf1_path), extract_pdf_text(pdf2_path)
     completion = call_grok_api(client, prepare_prompt_messages(pdf1_txt, pdf2_txt))
-    response = json.loads(completion.choices[0].message.content)
-    return response["winner"]
+    return int(completion.choices[0].message.content)
 
 
 def get_edinet_code_from_path(pdf_path):

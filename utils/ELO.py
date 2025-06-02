@@ -2,10 +2,12 @@ import random
 
 
 class EloRatingSystem:
-    def __init__(self, k_factor=32, default_rating=1500, ratings={}):
+    def __init__(self, k_factor=32, default_rating=1500, ratings={}, save_games=False):
         self.k_factor = k_factor
         self.default_rating = default_rating
         self.ratings = ratings  # Dictionary to store player ratings
+        self.save_games = save_games
+        self.games = []
 
     def add_player(self, player_id):
         if player_id not in self.ratings:
@@ -37,11 +39,19 @@ class EloRatingSystem:
             (1 - outcome) - expected_b
         )
 
+        # Save
+        if self.save_games:
+            self.games.append((player_a_id, player_b_id, outcome))
+
     def get_all_ratings(self):
         return self.ratings.copy()
 
+    def get_games(self):
+        return self.games
+
 
 def get_num_games(num_players):
+    # Use saved games plot number of games necessary to achieve approximately same ratings
     return int((num_players * (num_players - 1)) / 2)
 
 
