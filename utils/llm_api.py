@@ -30,13 +30,15 @@ def prepare_prompt_messages_verbose(text1, text2):
 def prepare_prompt_messages(text1, text2):
     summarized_text1 = preprocess_text(text1)
     summarized_text2 = preprocess_text(text2)
-    system_prompt = "You are a highly intelligent and precise financial analyst."
+    system_prompt = "You are a highly intelligent and precise financial analyst with expertise in Japanese corporate financial statements."
     user_prompt = (
-        "Below are excerpts from two Japanese companies' quarterly earnings statements. "
-        "Please analyze the financial data (e.g., net sales, operating profit, net profit, growth) and determine which company will perform better in the future based only on the information available."
-        "If data is incomplete, make reasonable assumptions."
-        "Return the result as 0 or 1 only (company A as 0 or company B as 1) (One character only)."
-        "Do not provide any extra text! Answer as 0 or 1 only! I will call int(output), that should work!.\n\n"
+        "Below are excerpts from two Japanese companies' quarterly earnings statements, equivalent to SEC 10-Q filings. "
+        "Thoroughly analyze all provided content, including actual numbers and figures (e.g., net sales, operating profit, net profit, growth rates, debt, cash flow), "
+        "as well as qualitative details such as tone, sentiment, and strategic outlook. "
+        "Consider all relevant financial metrics, market positioning, and any forward-looking statements to predict which company is likely to perform better in the future. "
+        "If data is incomplete, make reasonable assumptions based on industry trends and the provided information. "
+        "Return the result as 0 or 1 only (company A as 0 or company B as 1) (One character only). "
+        "Do not provide any extra text! Answer as 0 or 1 only! The output will be processed with int(output).\n\n"
         f"Company A Earnings:\n{summarized_text1}\n\n"
         f"Company B Earnings:\n{summarized_text2}"
     )
@@ -47,11 +49,15 @@ def prepare_prompt_messages(text1, text2):
 
 
 def call_grok_mini_api(client, prompt_messages):
-    return client.chat.completions.create(model="grok-3-mini", messages=prompt_messages)
+    return client.chat.completions.create(
+        model="grok-3-mini", messages=prompt_messages, temperature=0
+    )
 
 
 def call_grok_api(client, prompt_messages):
-    return client.chat.completions.create(model="grok-3", messages=prompt_messages)
+    return client.chat.completions.create(
+        model="grok-3", messages=prompt_messages, temperature=0
+    )
 
 
 def call_deepseek_api(client, prompt_messages):
